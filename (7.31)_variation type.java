@@ -22,7 +22,7 @@ class Hello {
         System.out.printf("hex=%x%n",hex);      // #은 접두사(16진수 0x, 8진수 0)
         System.out.printf("octNum=%o, %d\n",octNum,octNum);
         System.out.printf("hexNum=%x, %d\n",hexNum,hexNum);
-        System.out.printf("binNum=%s, %d\n",Integer.toBinaryString(binNum),binNum);   
+        System.out.printf("binNum=%s, %d\n",Integer.toBinaryString(binNum),binNum);           // binNum을 2진수 형태의 문자열로 바꿔줌
     }
 }
 
